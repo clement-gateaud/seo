@@ -292,7 +292,7 @@ p {
 
 }
 
-@media(max-width: 812px) {
+@media(max-width: 811px) {
 	#netatmo2{
 	display: none;
 	}
