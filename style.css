@@ -46,7 +46,7 @@ p {
 }
 
 .argument{
-	width:350px;
+	flex-basis:350px;
 	text-align: center;
 }
 
@@ -212,12 +212,13 @@ p {
 .point{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	margin:100px 200px;
+	justify-content: center;
+	margin:100px 0px;
 }
 
 .point img{
 	width:100px;
+	margin:0px 20px;
 }
 
 .presta {
@@ -276,19 +277,6 @@ p {
 	padding-bottom: 200px;
 }
 
-@media(max-width: 959px) {
-	#checklist1{
-	display: flex;
-	}
-
-	#checklist2{
-	display: none;
-	}
-
-	.bio {
-	margin:0px 0px;
-}
-
 @media(max-width: 848px) {
 	#netatmo1{
 	display: flex;
@@ -306,12 +294,16 @@ p {
 	display: none;
 	}
 
+	.bio {
+	margin:0px 0px;
+	}
+
 }
 
 @media(max-width: 700px) {
 
 	.info-container {
-		display:flex;
+		display:block;
 	}
 
 	.info {
@@ -330,6 +322,20 @@ p {
 		margin-bottom: : 15px ;
 	}
 
+}
+
+@media(max-width: 544px) {
+	#checklist1{
+		display: flex;
+	}
+
+	#checklist2{
+		display: none;
+	}
+
+	.point{
+		display: flex;
+	}
 }
 
 
