@@ -111,8 +111,8 @@ p {
 	position: sticky;
 	position: -webkit-sticky;
 	top :0;
-	backdrop-filter: blur(100px);
-	-webkit-backdrop-filter: blur(100px);
+	backdrop-filter: blur(1000px);
+	-webkit-backdrop-filter: blur(1000px);
 }
 
 .header-container{
@@ -276,7 +276,7 @@ p {
 }
 
 .void{
-	padding-bottom: 200px;
+	padding-bottom: 500px;
 }
 
 @media(max-width: 848px) {
