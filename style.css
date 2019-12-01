@@ -109,7 +109,6 @@ p {
 
 .header {
 	position: sticky;
-	position: -webkit-sticky;
 	top :0;
 	backdrop-filter: blur(1000px);
 	-webkit-backdrop-filter: blur(1000px);
