@@ -278,14 +278,6 @@ p {
 }
 
 @media(max-width: 848px) {
-	#netatmo1{
-	display: flex;
-	}
-
-	#netatmo2{
-	display: none;
-	}
-
 	#audit-icon1{
 	display: flex;
 	}
@@ -296,6 +288,17 @@ p {
 
 	.bio {
 	margin:0px 0px;
+	}
+
+}
+
+@media(max-width: 812px) {
+	#netatmo2{
+	display: none;
+	}
+
+	#audit-icon1{
+	display: flex;
 	}
 
 }
